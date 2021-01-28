@@ -1,14 +1,28 @@
 {
-  "name": "stockit",
-  "version": "1.0.0",
-  "description": "stock metrics tracking platform",
-  "main": "index.js",
+  "name": "stock-it",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
-  "author": "mariuslastauskas",
-  "license": "ISC",
   "dependencies": {
-    
+    "next": "10.0.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.15",
+    "@storybook/addon-essentials": "^6.1.15",
+    "@storybook/addon-links": "^6.1.15",
+    "@storybook/react": "^6.1.15",
+    "@types/node": "^14.14.22",
+    "@types/react": "^17.0.0",
+    "babel-loader": "^8.2.2",
+    "typescript": "^4.1.3"
   }
 }
